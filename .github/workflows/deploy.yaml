@@ -8,7 +8,7 @@ jobs:
  deploy:
   runs_on: ubuntu-latest
 
- steps:
+  steps:
    - name: checkout code
      uses: action/checkout@v6
    - name: deploy via ssh
